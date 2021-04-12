@@ -6,7 +6,9 @@ This is a tutorial for how to create the basic 3D game based on Godot ver. 3.2.
 
 ## 2. Demo
 
-![3D_Game 101](https://github.com/To-Fujita/Images/blob/master/3D_Game-001.gif "Demo for 3D Game 101")
+![3D_Game 101](https://github.com/To-Fujita/Images/blob/master/3D_Game-001.gif "Demo for 3D Game 101")  
+[Demo for 3D Character Move]():   
+[Demo for 3D Maze Game]():   
 
 ## 3. Derails
 
