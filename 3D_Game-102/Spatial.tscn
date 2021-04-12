@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Aladdin_04.glb" type="PackedScene" id=1]
+[ext_resource path="res://Aladdin_07.glb" type="PackedScene" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Aladdin_04" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 0, 0, 0 )
+visible = false
+
+[node name="Aladdin_07" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 0, 0, 0 )
