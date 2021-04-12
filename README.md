@@ -2,7 +2,7 @@
 This is a tutorial for how to create the basic 3D game based on Godot ver. 3.2.  
 
 ## 1. Description
-
+I will explain how to create the 3D games on step by step.  
 
 ## 2. Demo
 
@@ -11,6 +11,12 @@ This is a tutorial for how to create the basic 3D game based on Godot ver. 3.2.
 ![3D_Game 101](https://github.com/To-Fujita/Images/blob/master/3D_Game-001.gif "Demo for 3D Game 101")  
 
 ## 3. Derails
+
+### Step-1
+
+### Step-2
+
+### Step-3
 
 
 ## 4. Reference
