@@ -13,7 +13,7 @@ I will explain how to create the 3D games on step by step.
 ## 3. Derails
 
 ### Step-1: Create the new game
-When you launch GODOT Engine, you'll see is the Project Manager as below. 
+When you launch GODOT Engine, you'll see the Project Manager as below. 
   
 ![Godot 101](https://github.com/To-Fujita/Images/blob/master/Godot-101.jpg "Godot 101")  
 
