@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://asset/Boy_002_Walk.glb" type="PackedScene" id=1]
+
+[node name="Boy_002_Walk" instance=ExtResource( 1 )]
