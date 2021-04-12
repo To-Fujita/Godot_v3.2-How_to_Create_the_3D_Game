@@ -1,0 +1,62 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://assets/orange_ball_01.png" type="Texture" id=1]
+[ext_resource path="res://assets/big_circle_N.png" type="Texture" id=2]
+[ext_resource path="res://JoyStick.gd" type="Script" id=3]
+[ext_resource path="res://Spatial.gd" type="Script" id=4]
+[ext_resource path="res://StaticBody2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/Boy_002_Walk.glb" type="PackedScene" id=6]
+[ext_resource path="res://assets/Boy_003_Idle.glb" type="PackedScene" id=7]
+[ext_resource path="res://StaticBody.tscn" type="PackedScene" id=8]
+[ext_resource path="res://KinematicBody.gd" type="Script" id=9]
+
+[sub_resource type="CylinderMesh" id=1]
+top_radius = 0.4
+bottom_radius = 0.4
+height = 1.2
+
+[sub_resource type="CylinderShape" id=2]
+radius = 0.4
+height = 1.2
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 4 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( -0.707106, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707106, 0.5, -0.5, 0, 10, 10 )
+shadow_enabled = true
+
+[node name="StaticBody" parent="." instance=ExtResource( 8 )]
+
+[node name="StaticBody2" parent="." instance=ExtResource( 5 )]
+
+[node name="KinematicBody" type="KinematicBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0 )
+script = ExtResource( 9 )
+
+[node name="MeshInstance" type="MeshInstance" parent="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0 )
+visible = false
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0 )
+shape = SubResource( 2 )
+
+[node name="Boy_002_Walk" parent="KinematicBody" instance=ExtResource( 6 )]
+
+[node name="Boy_003_Idle" parent="KinematicBody" instance=ExtResource( 7 )]
+
+[node name="Camera" type="Camera" parent="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 6, 5 )
+
+[node name="JoyStick" type="Node2D" parent="."]
+position = Vector2( 200, 400 )
+script = ExtResource( 3 )
+
+[node name="BigCircle" type="Sprite" parent="JoyStick"]
+texture = ExtResource( 2 )
+
+[node name="SmallCircle" type="Sprite" parent="JoyStick"]
+texture = ExtResource( 1 )
