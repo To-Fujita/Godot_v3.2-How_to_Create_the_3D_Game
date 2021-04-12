@@ -1,12 +1,14 @@
 # Godot_v3.2-How_to_Create_the_3D_Game
 This is a tutorial for how to create the basic 3D game.
-## Description
+## 1. Description
 
-## Derails
+## 2. Demo
 
-## Reference
+## 3. Derails
 
-## License
+## 4. Reference
+
+## 5. License
 MIT
-## Author
+## 6. Author
 [T. Fujita](https://github.com/To-Fujita)
