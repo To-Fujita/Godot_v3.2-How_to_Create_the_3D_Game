@@ -4,7 +4,7 @@ This is a tutorial for how to create the basic 3D game.
 
 ## 2. Demo
 
-![3D_Game 101](https://to-fujita.github.io/Images/3D_Game-001.gif "Demo for 3D Game 101")
+![3D_Game 101](https://github.com/To-Fujita/Images/blob/master/3D_Game-001.gif "Demo for 3D Game 101")
 
 ## 3. Derails
 
