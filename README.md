@@ -37,7 +37,14 @@ After open the "New Project" folder by using the Explorer, create the new folder
 - FloorsRegular0043_L.png: The texture for floor (Copy to "assets" folder)  
 - orange_ball_01.png: The texture for "SmallCircle" at Virtual Joystick (Copy to "assets" folder)  
   
-### Step-3: 
+### Step-3: Create the Materials for 3D Game  
+
+- Floor: 
+- Block: 
+- Player: 
+- Virtual Joystick
+
+#### Step-3-1: Create the Floor  
 
 ![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
 
