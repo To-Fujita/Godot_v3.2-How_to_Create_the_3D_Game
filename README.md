@@ -43,9 +43,11 @@ It is needed some objects, a light and a camera to create 3D game. Additionally,
 #### Step-3-1: Set the Camera and the Light  
 At the next figure, please click the "3D Scene" for create the 3D spatial.
 ![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
-
+  
+If you right click on the "Spatial" at left side, you can see the next figure. Then, please click the "ADD Child Node".   
 ![Godot 106](https://github.com/To-Fujita/Images/blob/master/Godot-106.jpg "Godot 106")  
-
+  
+Please select the "Camera", then click the "Create" at the figure below.  
 ![Godot 107](https://github.com/To-Fujita/Images/blob/master/Godot-107.jpg "Godot 107")  
 
 ![Godot 108](https://github.com/To-Fujita/Images/blob/master/Godot-108.jpg "Godot 108")  
