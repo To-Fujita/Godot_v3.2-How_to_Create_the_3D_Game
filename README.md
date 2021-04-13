@@ -38,14 +38,10 @@ After open the "New Project" folder by using the Explorer, create the new folder
 - orange_ball_01.png: The texture for "SmallCircle" at Virtual Joystick (Copy to "assets" folder)  
   
 ### Step-3: Create the Materials for 3D Game  
+It is needed some objects, a light and a camera to create 3D game. Additionally, "Virtual Joystick" is needed to control the 3D character.
 
-- Floor: 
-- Block: 
-- Player: 
-- Virtual Joystick
-
-#### Step-3-1: Create the Floor  
-
+#### Step-3-1: Set the Camera and the Light  
+At the next figure, please click the "3D Scene" for create the 3D spatial.
 ![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
 
 ![Godot 106](https://github.com/To-Fujita/Images/blob/master/Godot-106.jpg "Godot 106")  
@@ -53,6 +49,8 @@ After open the "New Project" folder by using the Explorer, create the new folder
 ![Godot 107](https://github.com/To-Fujita/Images/blob/master/Godot-107.jpg "Godot 107")  
 
 ![Godot 108](https://github.com/To-Fujita/Images/blob/master/Godot-108.jpg "Godot 108")  
+
+#### Step-3-2: Create the Floor
 
 ![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
 
