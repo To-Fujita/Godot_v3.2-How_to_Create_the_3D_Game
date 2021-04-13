@@ -19,6 +19,12 @@ When you launch GODOT Engine, you'll see the Project Manager as below.
   
 ![Godot 101](https://github.com/To-Fujita/Images/blob/master/Godot-101.jpg "Godot 101")  
 
+![Godot 102](https://github.com/To-Fujita/Images/blob/master/Godot-102.jpg "Godot 102") 
+
+![Godot 103](https://github.com/To-Fujita/Images/blob/master/Godot-103.jpg "Godot 103")
+
+![Godot 104](https://github.com/To-Fujita/Images/blob/master/Godot-104.jpg "Godot 104") 
+
 ### Step-2
 
 ### Step-3
