@@ -12,7 +12,7 @@ This document describes how to create the 3D games on step by step. I will expla
 [Demo for 3D Maze Game](https://github.com/To-Fujita/Godot_v3.2-How_to_Create_the_3D_Game/tree/main/3D_Game-102/3D_Game-102.html):   
 ![3D_Game 101](https://github.com/To-Fujita/Images/blob/master/3D_Game-001.gif "Demo for 3D Game 101")  
 
-## 3. Derails
+## 3. Tutorials
 
 ### Step-1: Create the new game
 When you launch GODOT Engine, you'll see the Project Manager as below. 
