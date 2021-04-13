@@ -132,7 +132,7 @@ Right click on the "Spatial" at the left side, then click the "ADD Child Node". 
 Select the "Node2D" at left side, then select the "Sprite" and click the "Create" at right side.  
 ![Godot 131](https://github.com/To-Fujita/Images/blob/master/Godot-131.jpg "Godot 131")  
   
-Create the "Sprite" again.  
+Create the "Sprite" again as "Sprite2".  
 After select the "Sprite", click the "empty" of the "Texture" and select the "Load".  
 ![Godot 132](https://github.com/To-Fujita/Images/blob/master/Godot-132.jpg "Godot 132")  
   
