@@ -49,9 +49,10 @@ If you right click on the "Spatial" at left side, you can see the next figure. T
   
 Please select the "Camera", then click the "Create" at the figure below.  
 ![Godot 107](https://github.com/To-Fujita/Images/blob/master/Godot-107.jpg "Godot 107")  
-
+  
+Please create the "DirectionalLight" to same way at the "Camera" above.
 ![Godot 108](https://github.com/To-Fujita/Images/blob/master/Godot-108.jpg "Godot 108")  
-
+  
 #### Step-3-2: Create the Floor
 
 ![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
