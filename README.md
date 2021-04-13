@@ -27,9 +27,71 @@ Input "Project Name", then click the "Create Folder".
 Click the "Create & Edit". 
 ![Godot 104](https://github.com/To-Fujita/Images/blob/master/Godot-104.jpg "Godot 104") 
   
-### Step-2
+### Step-2: 
 
-### Step-3
+![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
+
+![Godot 106](https://github.com/To-Fujita/Images/blob/master/Godot-106.jpg "Godot 106")  
+
+![Godot 107](https://github.com/To-Fujita/Images/blob/master/Godot-107.jpg "Godot 107")  
+
+![Godot 108](https://github.com/To-Fujita/Images/blob/master/Godot-108.jpg "Godot 108")  
+
+![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
+
+![Godot 110](https://github.com/To-Fujita/Images/blob/master/Godot-110.jpg "Godot 110")  
+
+![Godot 111](https://github.com/To-Fujita/Images/blob/master/Godot-111.jpg "Godot 111")  
+
+![Godot 112](https://github.com/To-Fujita/Images/blob/master/Godot-112.jpg "Godot 112")  
+
+![Godot 113](https://github.com/To-Fujita/Images/blob/master/Godot-113.jpg "Godot 113")  
+
+![Godot 114](https://github.com/To-Fujita/Images/blob/master/Godot-104.jpg "Godot 114")  
+
+![Godot 115](https://github.com/To-Fujita/Images/blob/master/Godot-115.jpg "Godot 115")  
+
+![Godot 116](https://github.com/To-Fujita/Images/blob/master/Godot-116.jpg "Godot 116")  
+
+![Godot 117](https://github.com/To-Fujita/Images/blob/master/Godot-117.jpg "Godot 117")  
+
+![Godot 118](https://github.com/To-Fujita/Images/blob/master/Godot-118.jpg "Godot 118")  
+
+![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
+
+![Godot 120](https://github.com/To-Fujita/Images/blob/master/Godot-120.jpg "Godot 120")  
+
+![Godot 121](https://github.com/To-Fujita/Images/blob/master/Godot-121.jpg "Godot 121")  
+
+![Godot 122](https://github.com/To-Fujita/Images/blob/master/Godot-122.jpg "Godot 122")  
+
+![Godot 123](https://github.com/To-Fujita/Images/blob/master/Godot-123.jpg "Godot 123")  
+
+![Godot 124](https://github.com/To-Fujita/Images/blob/master/Godot-124.jpg "Godot 124")  
+
+![Godot 125](https://github.com/To-Fujita/Images/blob/master/Godot-125.jpg "Godot 125")  
+
+![Godot 126](https://github.com/To-Fujita/Images/blob/master/Godot-126.jpg "Godot 126")  
+
+![Godot 127](https://github.com/To-Fujita/Images/blob/master/Godot-127.jpg "Godot 127")  
+
+![Godot 128](https://github.com/To-Fujita/Images/blob/master/Godot-128.jpg "Godot 128")  
+
+![Godot 129](https://github.com/To-Fujita/Images/blob/master/Godot-129.jpg "Godot 129")  
+
+![Godot 130](https://github.com/To-Fujita/Images/blob/master/Godot-130.jpg "Godot 130")  
+
+![Godot 131](https://github.com/To-Fujita/Images/blob/master/Godot-131.jpg "Godot 131")  
+
+![Godot 132](https://github.com/To-Fujita/Images/blob/master/Godot-132.jpg "Godot 132")  
+
+![Godot 133](https://github.com/To-Fujita/Images/blob/master/Godot-133.jpg "Godot 133")  
+
+![Godot 134](https://github.com/To-Fujita/Images/blob/master/Godot-134.jpg "Godot 134")  
+
+![Godot 135](https://github.com/To-Fujita/Images/blob/master/Godot-135.jpg "Godot 135") 
+
+### Step-3: 
 
 
 ## 4. Reference
