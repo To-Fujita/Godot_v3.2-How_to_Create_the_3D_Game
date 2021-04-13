@@ -70,7 +70,7 @@ Also, select the "StaticBody" at the left side and right click it, then click th
 Select the "MeshInstance" at the left side and click the "enpty" of "Mesh" at right side, then click the "New CubeMesh" for creating the box object.  
 ![Godot 112](https://github.com/To-Fujita/Images/blob/master/Godot-112.jpg "Godot 112")  
   
-Click the white box of "Mesh" at right side.  
+At the defult setting, it is created a white cubed box that size is 2m x 2m x 2m. Please click the white box of "Mesh" at right side.  
 ![Godot 113](https://github.com/To-Fujita/Images/blob/master/Godot-113.jpg "Godot 113")  
   
 Click the "enpty" of "Material" at right side, then select the "New SpatialMaterial".  
@@ -89,10 +89,10 @@ Set the scale of "Uv1" at right side as below.
 (Note: The texture of cube is refer to "[Godot_v3.2-Cube_Characters](https://github.com/To-Fujita/Godot_v3.2-Cube_Characters)".)
 ![Godot 118](https://github.com/To-Fujita/Images/blob/master/Godot-118.jpg "Godot 118")  
   
-After select the "CollisionShape" at left side, click the "empty" of "New BoxShape" at right side.
+After select the "CollisionShape" at left side, click the "empty" of "New BoxShape" at right side. The size of collision cubed box is also 2m x 2m x 2m at dufault setting.  
 ![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
   
-Select the "StaticBody" at left side, then set the "Translation" in "Transform" of "Spatial" at right side.  
+Select the "StaticBody" at left side, then, set the "Translation" in "Transform" of "Spatial" at right side.  
 ![Godot 120](https://github.com/To-Fujita/Images/blob/master/Godot-120.jpg "Godot 120")  
 
 #### Step-3-3: Create the Brick Block
@@ -125,7 +125,7 @@ Set the value to the "Radius", the "Height" and the "Translation" of the "Transf
 Click the eye mark at the "MeshInstance" of "KinematicBody" to disappear the white cylinder shape. Select the "KinematicBody" at the left side, then set the value to the "Translation" of the "Transform".
 ![Godot 129](https://github.com/To-Fujita/Images/blob/master/Godot-129.jpg "Godot 129")  
   
-#### Step-3-5: Virtual Joystick
+#### Step-3-5: Create the Virtual Joystick
 Right click on the "Spatial" at the left side, then click the "ADD Child Node". Select the "Node2D" and click the "Create".  
 ![Godot 130](https://github.com/To-Fujita/Images/blob/master/Godot-130.jpg "Godot 130")  
   
@@ -149,7 +149,7 @@ Change the name at left side as follows.
 Select the "JoyStick" at left side, then set the value of "Position" in "Transform" at right side.
 ![Godot 135](https://github.com/To-Fujita/Images/blob/master/Godot-135.jpg "Godot 135") 
 
-### Step-4: 
+### Step-4: Save the branches as scene for the Floor Block and the Brick Block
 
 ![Godot 136](https://github.com/To-Fujita/Images/blob/master/Godot-136.jpg "Godot 136")  
 
@@ -158,17 +158,20 @@ Select the "JoyStick" at left side, then set the value of "Position" in "Transfo
 ![Godot 138](https://github.com/To-Fujita/Images/blob/master/Godot-138.jpg "Godot 138") 
 
 
-### Step-5: Set the Virtual JoyStick
+### Step-5: Attach the script to the Virtual JoyStick
 
 ![Godot 139](https://github.com/To-Fujita/Images/blob/master/Godot-139.jpg "Godot 139") 
 
-### Step-6: Set the Floor and the Brick
+### Step-6: Attach the script to the Spatial
 
 ![Godot 140](https://github.com/To-Fujita/Images/blob/master/Godot-140.jpg "Godot 140") 
 
 ![Godot 141](https://github.com/To-Fujita/Images/blob/master/Godot-141.jpg "Godot 141") 
 
-### Step-7: Set the Camera Position and Light Position
+### Step-7: Attach the script to the KinematicBody
+
+
+### Step-8: Set the Camera Position and the Light Position
 
 ![Godot 142](https://github.com/To-Fujita/Images/blob/master/Godot-142.jpg "Godot 142") 
 
@@ -178,7 +181,7 @@ Select the "JoyStick" at left side, then set the value of "Position" in "Transfo
 
 ![Godot 145](https://github.com/To-Fujita/Images/blob/master/Godot-145.jpg "Godot 145") 
 
-### Step-8: Set the Following Camera
+### Step-9: Set as a Tracking Camera
 
 ![Godot 146](https://github.com/To-Fujita/Images/blob/master/Godot-146.jpg "Godot 146") 
 
