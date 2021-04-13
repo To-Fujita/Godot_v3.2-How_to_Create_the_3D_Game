@@ -78,7 +78,7 @@ Click the "enpty" of "Material" at right side, then select the "New SpatialMater
 Click the white sphere of "Material" at right side.  
 ![Godot 115](https://github.com/To-Fujita/Images/blob/master/Godot-115.jpg "Godot 115")  
   
-After select the "Albedo" at right side, click the "empty", then select the "Load".  
+After select the "Albedo" at right side, click the "empty" in "Texture", then select the "Load".  
 ![Godot 116](https://github.com/To-Fujita/Images/blob/master/Godot-116.jpg "Godot 116")  
   
 Select the "assets" folder at "Open a File", then open the "FloorRegular0043_L.png" file.  
@@ -87,14 +87,18 @@ Select the "assets" folder at "Open a File", then open the "FloorRegular0043_L.p
 Set the scale of "Uv1" at right side as below.  
 (Note: The texture of cube is refer to "[Godot_v3.2-Cube_Characters](https://github.com/To-Fujita/Godot_v3.2-Cube_Characters)".)
 ![Godot 118](https://github.com/To-Fujita/Images/blob/master/Godot-118.jpg "Godot 118")  
-
+  
+After select the "CollisionShape" at left side, click the "empty" of "New BoxShape" at right side.
 ![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
-
+  
+Select the "StaticBody" at left side, then set the "Translation" in "Transform" of "Spatial" at right side.  
 ![Godot 120](https://github.com/To-Fujita/Images/blob/master/Godot-120.jpg "Godot 120")  
 
 #### Step-3-3: Create the Block
-
+Please create the "StaticBody2" to same way at the "StaticBody" above. However, change to set the "backdrop-21534_1920.png" as a texture and set the different value of "Translation" in "Transform" of "Spatial" to the "Floor" above.  
 ![Godot 121](https://github.com/To-Fujita/Images/blob/master/Godot-121.jpg "Godot 121")  
+  
+#### Step-3-4: Create the Player
 
 ![Godot 122](https://github.com/To-Fujita/Images/blob/master/Godot-122.jpg "Godot 122")  
 
