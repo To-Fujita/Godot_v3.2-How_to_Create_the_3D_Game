@@ -73,7 +73,7 @@ Click the white box of "Mesh" at right side.
 ![Godot 113](https://github.com/To-Fujita/Images/blob/master/Godot-113.jpg "Godot 113")  
   
 Click the "enpty" of "Material" at right side, then select the "New SpatialMaterial".  
-![Godot 114](https://github.com/To-Fujita/Images/blob/master/Godot-104.jpg "Godot 114")  
+![Godot 114](https://github.com/To-Fujita/Images/blob/master/Godot-114.jpg "Godot 114")  
   
 Click the white sphere of "Material" at right side.  
 ![Godot 115](https://github.com/To-Fujita/Images/blob/master/Godot-115.jpg "Godot 115")  
