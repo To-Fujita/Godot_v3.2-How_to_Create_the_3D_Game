@@ -29,7 +29,7 @@ Click the "Create & Edit".
   
 ### Step-2: Copy the Assets
 After open the "New Project" folder by using the Explorer, create the new folder as "assets". Then, copy the following files.  
-- JoyStick.gd: After download from [Github Godot-Virtual-Joystick](https://github.com/rodrigofbm/Godot-Virtual-Joystick) and unzip it, then copy to "New Project" folder.  
+- JoyStick.gd: After download from "[Github Godot-Virtual-Joystick](https://github.com/rodrigofbm/Godot-Virtual-Joystick)" and unzip it, then copy to "New Project" folder.  
 - Boy_002_Walk.glb: 3D character with walking animation that is created by Blender. (Copy to "assets" folder)  
 - Boy_003_Idle.glb: 3D character with idle animation that is also created by Blender. (Copy to "assets" folder)  
 - backdrop-21534_1920.png: The texture for block (Copy to "assets" folder)  
