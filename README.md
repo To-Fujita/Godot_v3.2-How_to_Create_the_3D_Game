@@ -14,14 +14,14 @@ Followings are demos for this tutorials.
 
 ## 3. Tutorials
 
-### Step-1: Create the new game
-When you launch GODOT Engine, you'll see the Project Manager as below. If you launch it at first time, no project appears in this Project Manager. Please click the "New Project".  
+### Step-1: Create New Project
+When you launch GODOT Engine, you will see the Project Manager as below. If you launch it at first time, no project appears in this Project Manager. Please click the "New Project".  
 ![Godot 101](https://github.com/To-Fujita/Images/blob/master/Godot-101.jpg "Godot 101")  
-
+Click the "Browse" at the next figure, then select the folder to create new game.  
 ![Godot 102](https://github.com/To-Fujita/Images/blob/master/Godot-102.jpg "Godot 102") 
-
+Input "Project Name", then click the "Create Folder".
 ![Godot 103](https://github.com/To-Fujita/Images/blob/master/Godot-103.jpg "Godot 103")
-
+Click the "Create & Edit". 
 ![Godot 104](https://github.com/To-Fujita/Images/blob/master/Godot-104.jpg "Godot 104") 
 
 ### Step-2
