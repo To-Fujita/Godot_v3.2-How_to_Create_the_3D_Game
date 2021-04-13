@@ -1,10 +1,11 @@
 # Godot_v3.2-How_to_Create_the_3D_Game
 GODOT engine is a free and open source 2D/3D Game Engine. This document is a tutorial for how to create the basic 3D game based on Godot ver. 3.2. I hope it helps as a reference for beginners.  
-
+  
 ## 1. Description
 This document describes how to create the 3D games on step by step. I will explain how to create the 3D blocks and the 3D character, then how to move (walk) the 3D character. You can download all of programs and assets in this document from "Code" above.   
-
-
+3D_Game-101: Sample for moving the 3D character by using virtual joystick   
+3D_Game-102: Sample for 3D maze game  
+  
 ## 2. Demo
 
 [Demo for 3D Character Move](https://github.com/To-Fujita/Godot_v3.2-How_to_Create_the_3D_Game/tree/main/3D_Game-101/3D_Game-101.html):   
