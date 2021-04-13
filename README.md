@@ -59,9 +59,11 @@ Please create the "StaticBody" to same way at the "Camera" above.
 ![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
   
 Select the "StaticBody" at the left side and right click it, then click the "ADD Child Node". Please select the "MeshInstance", then click the "Create".  
+(Note: MeshInstance is a node that takes a Mesh resource and adds it to the current scenario by creating an instance of it.)  
 ![Godot 110](https://github.com/To-Fujita/Images/blob/master/Godot-110.jpg "Godot 110")  
   
 Also, select the "StaticBody" at the left side and right click it, then click the "ADD Child Node". Please select the "CollisionShape", then click the "Create".  
+(Note: CollisionShape is an editor facility for creating and editing collision shapes in 3D space.)  
 ![Godot 111](https://github.com/To-Fujita/Images/blob/master/Godot-111.jpg "Godot 111")  
   
 
