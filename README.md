@@ -44,7 +44,7 @@ It is needed some objects, a light and a camera to create 3D game. Additionally,
 At the next figure, please click the "3D Scene" for create the 3D spatial.
 ![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
   
-If you right click on the "Spatial" at left side, you can see the next figure. Then, please click the "ADD Child Node".   
+If you right click on the "Spatial" at the left side, you can see the next figure. Then, please click the "ADD Child Node".   
 ![Godot 106](https://github.com/To-Fujita/Images/blob/master/Godot-106.jpg "Godot 106")  
   
 Please select the "Camera", then click the "Create" at the figure below.  
@@ -58,10 +58,12 @@ Please create the "StaticBody" to same way at the "Camera" above.
 (Note: A static body is a simple body that is not intended to move.)    
 ![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
   
-
+Select the "StaticBody" at the left side and right click it, then click the "ADD Child Node". Please select the "MeshInstance", then click the "Create".  
 ![Godot 110](https://github.com/To-Fujita/Images/blob/master/Godot-110.jpg "Godot 110")  
-
+  
+Also, select the "StaticBody" at the left side and right click it, then click the "ADD Child Node". Please select the "CollisionShape", then click the "Create".  
 ![Godot 111](https://github.com/To-Fujita/Images/blob/master/Godot-111.jpg "Godot 111")  
+  
 
 ![Godot 112](https://github.com/To-Fujita/Images/blob/master/Godot-112.jpg "Godot 112")  
 
