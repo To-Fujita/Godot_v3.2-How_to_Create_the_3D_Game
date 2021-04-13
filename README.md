@@ -66,19 +66,26 @@ Also, select the "StaticBody" at the left side and right click it, then click th
 (Note: CollisionShape is an editor facility for creating and editing collision shapes in 3D space.)  
 ![Godot 111](https://github.com/To-Fujita/Images/blob/master/Godot-111.jpg "Godot 111")  
   
-
+Select the "MeshInstance" at the left side and click the "enpty" of "Mesh" at right side, then click the "New CubeMesh" for creating the box object.  
 ![Godot 112](https://github.com/To-Fujita/Images/blob/master/Godot-112.jpg "Godot 112")  
-
+  
+Click the white box of "Mesh" at right side.  
 ![Godot 113](https://github.com/To-Fujita/Images/blob/master/Godot-113.jpg "Godot 113")  
-
+  
+Click the "enpty" of "Material" at right side, then select the "New SpatialMaterial".  
 ![Godot 114](https://github.com/To-Fujita/Images/blob/master/Godot-104.jpg "Godot 114")  
-
+  
+Click the white sphere of "Material" at right side.  
 ![Godot 115](https://github.com/To-Fujita/Images/blob/master/Godot-115.jpg "Godot 115")  
-
+  
+After select the "Albedo" at right side, click the "empty", then select the "Load".  
 ![Godot 116](https://github.com/To-Fujita/Images/blob/master/Godot-116.jpg "Godot 116")  
-
+  
+Select the "assets" folder at "Open a File", then open the "FloorRegular0043_L.png" file.  
 ![Godot 117](https://github.com/To-Fujita/Images/blob/master/Godot-117.jpg "Godot 117")  
-
+  
+Set the scale of "Uv1" at right side as below.  
+(Note: The texture of cube is refer to "[Godot_v3.2-Cube_Characters](https://github.com/To-Fujita/Godot_v3.2-Cube_Characters)".)
 ![Godot 118](https://github.com/To-Fujita/Images/blob/master/Godot-118.jpg "Godot 118")  
 
 ![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
