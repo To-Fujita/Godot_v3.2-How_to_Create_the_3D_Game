@@ -54,8 +54,10 @@ Please create the "DirectionalLight" to same way at the "Camera" above.
 ![Godot 108](https://github.com/To-Fujita/Images/blob/master/Godot-108.jpg "Godot 108")  
   
 #### Step-3-2: Create the Floor
-
+Please create the "StaticBody" to same way at the "Camera" above.  
+(Note: A static body is a simple body that is not intended to move.)    
 ![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
+  
 
 ![Godot 110](https://github.com/To-Fujita/Images/blob/master/Godot-110.jpg "Godot 110")  
 
@@ -78,6 +80,8 @@ Please create the "DirectionalLight" to same way at the "Camera" above.
 ![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
 
 ![Godot 120](https://github.com/To-Fujita/Images/blob/master/Godot-120.jpg "Godot 120")  
+
+#### Step-3-3: Create the Block
 
 ![Godot 121](https://github.com/To-Fujita/Images/blob/master/Godot-121.jpg "Godot 121")  
 
