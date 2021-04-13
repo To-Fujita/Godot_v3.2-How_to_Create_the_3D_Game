@@ -146,6 +146,7 @@ Change the name at left side as follows.
 - Node2D  -> JoyStick  
 - Sprite  -> BigCircle  
 - Sprite2 -> SmallCircle  
+
 Select the "JoyStick" at left side, then set the value of "Position" in "Transform" at right side.
 ![Godot 135](https://github.com/To-Fujita/Images/blob/master/Godot-135.jpg "Godot 135") 
 
