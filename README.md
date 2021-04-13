@@ -37,6 +37,7 @@ After open the "New Project" folder by using the Explorer, create the new folder
 - big_circle_N.png: The texture for "BigCircle" at Virtual Joystick (Copy to "assets" folder)  
 - FloorsRegular0043_L.png: The texture for floor (Copy to "assets" folder)  
 - orange_ball_01.png: The texture for "SmallCircle" at Virtual Joystick (Copy to "assets" folder)  
+
 Please try to use your own textures and/or 3D characters instead of above files.
   
 ### Step-3: Create the Materials for 3D Game  
