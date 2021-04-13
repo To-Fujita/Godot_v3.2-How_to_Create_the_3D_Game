@@ -36,6 +36,7 @@ After open the "New Project" folder by using the Explorer, create the new folder
 - big_circle_N.png: The texture for "BigCircle" at Virtual Joystick (Copy to "assets" folder)  
 - FloorsRegular0043_L.png: The texture for floor (Copy to "assets" folder)  
 - orange_ball_01.png: The texture for "SmallCircle" at Virtual Joystick (Copy to "assets" folder)  
+Please try to use your own textures and/or 3D characters instead of above files.
   
 ### Step-3: Create the Materials for 3D Game  
 It is needed some objects, a light and a camera to create 3D game. Additionally, "Virtual Joystick" is needed to control the 3D character.
@@ -53,7 +54,7 @@ Please select the "Camera", then click the "Create" at the figure below.
 Please create the "DirectionalLight" to same way at the "Camera" above.
 ![Godot 108](https://github.com/To-Fujita/Images/blob/master/Godot-108.jpg "Godot 108")  
   
-#### Step-3-2: Create the Floor
+#### Step-3-2: Create the Floor Block
 Please create the "StaticBody" to same way at the "Camera" above.  
 (Note: A static body is a simple body that is not intended to move.)    
 ![Godot 109](https://github.com/To-Fujita/Images/blob/master/Godot-109.jpg "Godot 109")  
@@ -94,42 +95,94 @@ After select the "CollisionShape" at left side, click the "empty" of "New BoxSha
 Select the "StaticBody" at left side, then set the "Translation" in "Transform" of "Spatial" at right side.  
 ![Godot 120](https://github.com/To-Fujita/Images/blob/master/Godot-120.jpg "Godot 120")  
 
-#### Step-3-3: Create the Block
-Please create the "StaticBody2" to same way at the "StaticBody" above. However, change to set the "backdrop-21534_1920.png" as a texture and set the different value of "Translation" in "Transform" of "Spatial" to the "Floor" above.  
+#### Step-3-3: Create the Brick Block
+Please create the "StaticBody2" to same way at the "StaticBody" above. However, change to set the "backdrop-21534_1920.png" as a texture and set the different value of "Translation" in "Transform" of "Spatial" to the "Create the Floor Block" above.  
 ![Godot 121](https://github.com/To-Fujita/Images/blob/master/Godot-121.jpg "Godot 121")  
   
 #### Step-3-4: Create the Player
-
+After select the "Spatial" at left side, please click the "ADD Child Node". Then, select the "KinematicBody".  
+(Note: Kinematic body is a special type of body that is meant to be user-controlled.)  
 ![Godot 122](https://github.com/To-Fujita/Images/blob/master/Godot-122.jpg "Godot 122")  
-
+  
+Add the "MeshInstance" and the "CollisionShape" that are same way to above. Then, drag files of the "Boy_002_Walk.glb" and the "Boy_003_Idle.glb" to the "KinematicBody".
 ![Godot 123](https://github.com/To-Fujita/Images/blob/master/Godot-123.jpg "Godot 123")  
-
+  
+Select the "MeshInstance" of the "KinematicBody" at left side, then click the "empty" in "Mesh" and select the "New CylinderMesh".  
 ![Godot 124](https://github.com/To-Fujita/Images/blob/master/Godot-124.jpg "Godot 124")  
-
+  
+Set the value to the "Top Radius", the "Bottom Radius" and the "Height" to fit the 3D character size.  
 ![Godot 125](https://github.com/To-Fujita/Images/blob/master/Godot-125.jpg "Godot 125")  
-
+  
+Set the value to the "Translation" of the "Transform" at right side to fit the 3D character size also.  
 ![Godot 126](https://github.com/To-Fujita/Images/blob/master/Godot-126.jpg "Godot 126")  
-
+  
+Select the "CollisionShape" of the "KinematicBody" at left side, then click the "empty" in the "Shape" and select the "New CylinderShape".
 ![Godot 127](https://github.com/To-Fujita/Images/blob/master/Godot-127.jpg "Godot 127")  
-
+  
+Set the value to the "Radius", the "Height" and the "Translation" of the "Transform" as like to the "MeshInstance".
 ![Godot 128](https://github.com/To-Fujita/Images/blob/master/Godot-128.jpg "Godot 128")  
-
+  
+Click the eye mark at the "MeshInstance" of "KinematicBody" to disappear the white cylinder shape. Select the "KinematicBody" at the left side, then set the value to the "Translation" of the "Transform".
 ![Godot 129](https://github.com/To-Fujita/Images/blob/master/Godot-129.jpg "Godot 129")  
-
+  
+#### Step-3-5: Virtual Joystick
+Right click on the "Spatial" at the left side, then click the "ADD Child Node". Select the "Node2D" and click the "Create".  
 ![Godot 130](https://github.com/To-Fujita/Images/blob/master/Godot-130.jpg "Godot 130")  
-
+  
+Select the "Node2D" at left side, then select the "Sprite" and click the "Create" at right side.  
 ![Godot 131](https://github.com/To-Fujita/Images/blob/master/Godot-131.jpg "Godot 131")  
-
+  
+Create the "Sprite" again.  
+After select the "Sprite", click the "empty" of the "Texture" and select the "Load".  
 ![Godot 132](https://github.com/To-Fujita/Images/blob/master/Godot-132.jpg "Godot 132")  
-
+  
+Select the file of "big_circle_N.png" and click the "Open".
 ![Godot 133](https://github.com/To-Fujita/Images/blob/master/Godot-133.jpg "Godot 133")  
-
+  
+After select the "Sprite2", click the "empty" of the "Texture" and select the "Load" again. Then, select the file of "orange_ball_01.png".
 ![Godot 134](https://github.com/To-Fujita/Images/blob/master/Godot-134.jpg "Godot 134")  
-
+  
+Change the name at left side as follows.
+- Node2D  -> JoyStick
+- Sprite  -> BigCircle
+- Sprite2 -> SmallCircle
+Select the "JoyStick" at left side, then set the value of "Position" in "Transform" at right side.
 ![Godot 135](https://github.com/To-Fujita/Images/blob/master/Godot-135.jpg "Godot 135") 
 
 ### Step-4: 
 
+![Godot 136](https://github.com/To-Fujita/Images/blob/master/Godot-136.jpg "Godot 136")  
+
+![Godot 137](https://github.com/To-Fujita/Images/blob/master/Godot-137.jpg "Godot 137")  
+
+![Godot 138](https://github.com/To-Fujita/Images/blob/master/Godot-138.jpg "Godot 138") 
+
+
+### Step-5: Set the Virtual JoyStick
+
+![Godot 139](https://github.com/To-Fujita/Images/blob/master/Godot-139.jpg "Godot 139") 
+
+### Step-6: Set the Floor and the Brick
+
+![Godot 140](https://github.com/To-Fujita/Images/blob/master/Godot-140.jpg "Godot 140") 
+
+![Godot 141](https://github.com/To-Fujita/Images/blob/master/Godot-141.jpg "Godot 141") 
+
+### Step-7: Set the Camera Position and Light Position
+
+![Godot 142](https://github.com/To-Fujita/Images/blob/master/Godot-142.jpg "Godot 142") 
+
+![Godot 143](https://github.com/To-Fujita/Images/blob/master/Godot-143.jpg "Godot 143") 
+
+![Godot 144](https://github.com/To-Fujita/Images/blob/master/Godot-144.jpg "Godot 144") 
+
+![Godot 145](https://github.com/To-Fujita/Images/blob/master/Godot-145.jpg "Godot 145") 
+
+### Step-8: Set the Following Camera
+
+![Godot 146](https://github.com/To-Fujita/Images/blob/master/Godot-146.jpg "Godot 146") 
+
+![Godot 147](https://github.com/To-Fujita/Images/blob/master/Godot-147.jpg "Godot 147") 
 
 ## 4. Reference
 [GODOT Engine](https://godotengine.org/): The game engine that is completely free and open-source under the MIT license.  
