@@ -370,7 +370,8 @@ The setting for the ground and the walls are almost same way to the above. Also,
 - Menu: Start screen for the game  
 - Settings: Select the player, ON/OFF for the sound effect and set the maze's size  
 - Goal: 3D area that detects CollisionObject nodes overlapping, entering, or exiting.  
-To create the maze is refer to the "Step-6: How to create a maze game" on [Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics).
+
+To create the maze is almost same to the "Step-6: How to create a maze game" on [Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics).
   
 ## 4. Reference
 [GODOT Engine](https://godotengine.org/): The game engine that is completely free and open-source under the MIT license.  
