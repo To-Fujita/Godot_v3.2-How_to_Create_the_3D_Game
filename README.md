@@ -174,9 +174,14 @@ Click the "Create" at default setting.
 ![Godot 141](https://github.com/To-Fujita/Images/blob/master/Godot-141.jpg "Godot 141") 
   
 
+![Godot 201](https://github.com/To-Fujita/Images/blob/master/Godot-201.jpg "Godot 201") 
+
+
 
 ### Step-7: Attach the script to the KinematicBody
 Right Click on the "KinematicBody" at right side and select the "Attach Script". Then, click the "Create" at default setting.
+![Godot 202](https://github.com/To-Fujita/Images/blob/master/Godot-202.jpg "Godot 202") 
+
 
 ### Step-8: Set the Camera Position and the Light Position
 
