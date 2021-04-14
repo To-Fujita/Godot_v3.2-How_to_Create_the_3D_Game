@@ -92,7 +92,7 @@ Set the scale of "Uv1" at right side as below.
 (Note: The texture of cube is refer to "[Godot_v3.2-Cube_Characters](https://github.com/To-Fujita/Godot_v3.2-Cube_Characters)".)
 ![Godot 118](https://github.com/To-Fujita/Images/blob/master/Godot-118.jpg "Godot 118")  
   
-After select the "CollisionShape" at left side, click the "empty" of "New BoxShape" at right side. The size of collision cubed box is also 2m x 2m x 2m at dufault setting.  
+After select the "CollisionShape" at left side, click the "empty" of "Shape" at right side. Then, please select the "New BoxShape". The size of collision cubed box is also 2m x 2m x 2m at dufault setting.  
 ![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
   
 Select the "StaticBody" at left side, then, set the "Translation" in "Transform" of "Spatial" at right side.  
