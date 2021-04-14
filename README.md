@@ -339,7 +339,7 @@ I will try to describe about 3D animations. There are commands 'get_node("Boy_00
 Please click the mark at the "Boy_002_Walk", then click the "New Inherited".
 ![Godot 203](https://github.com/To-Fujita/Images/blob/master/Godot-203.jpg "Godot 203")
   
-You can see the detail of the "Boy_002_Walk". The "Boy_202_Walk" is a main body of the animation. If you click the "AnimationPlayer", you can see the animation of it.
+You can see the detail of the "Boy_002_Walk". If you click the "AnimationPlayer", you can see the animation of it. The "Boy_202_Walk" is a main body of the animation.  
 ![Godot 204](https://github.com/To-Fujita/Images/blob/master/Godot-204.jpg "Godot 204")
   
 Also, you can see the detail of the "Boy_003_Idle". The "Boy_203a_Idle" is a main body of the animation.
@@ -366,7 +366,11 @@ Select the "Camera" at left side and set the values at the "Translation" in the 
 ![Godot 147](https://github.com/To-Fujita/Images/blob/master/Godot-147.jpg "Godot 147") 
   
 ### Step-10: Maze Type of Game
-
+The setting for the ground and the walls are almost same way to the above. Also, the control for 3D player is same to the above. The additional items are as follows.  
+- Menu: Start screen for the game  
+- Settings: Select the player, ON/OFF for the sound effect and set the maze's size  
+- Goal: 3D area that detects CollisionObject nodes overlapping, entering, or exiting.  
+To create the maze is refer to the "Step-6: How to create a maze game" on [Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics).
   
 ## 4. Reference
 [GODOT Engine](https://godotengine.org/): The game engine that is completely free and open-source under the MIT license.  
