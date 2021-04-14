@@ -95,7 +95,7 @@ Set the scale of "Uv1" at right side as below.
 After select the "CollisionShape" at left side, click the "empty" of "Shape" at right side. Then, please select the "New BoxShape". The size of collision cubed box is also 2m x 2m x 2m at dufault setting.  
 ![Godot 119](https://github.com/To-Fujita/Images/blob/master/Godot-119.jpg "Godot 119")  
   
-Select the "StaticBody" at left side, then set the "Translation" in "Transform" of "Spatial" at right side.  
+Select the "StaticBody" at left side, then set the value for the "Translation" in "Transform" of "Spatial" at right side. The reason is to move to the place that does not get in the way at the game.  
 ![Godot 120](https://github.com/To-Fujita/Images/blob/master/Godot-120.jpg "Godot 120")  
 
 #### Step-3-3: Create the Brick Block
