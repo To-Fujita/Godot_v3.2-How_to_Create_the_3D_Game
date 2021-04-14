@@ -379,6 +379,7 @@ To create the maze is almost same to the "Step-6: How to create a maze game" on 
 [GODOT v3.2 Cube Characters](https://github.com/To-Fujita/Godot_v3.2-Cube_Characters): Some simple Cube_Characters with animations based on Godot Engine ver. 3.2.  
 [GODOT v3.2 Sokoban Cube](https://github.com/To-Fujita/Godot_v3.2-Sokoban_Cube): A sokoban type of game as a demonstration of Cube Characters with some animations based on Godot Game Engine ver. 3.2.  
 [Virtual-Joystick](https://github.com/rodrigofbm/Godot-Virtual-Joystick): Virtual Joystick for GODOT ver. 3.x  
+[Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics): How to create the 3D graphics, the maze game, some pazzle games, 360 degrees video and VR mode on 360 degrees video by using Babylon.js.  
 
 ## 5. License
 MIT  
