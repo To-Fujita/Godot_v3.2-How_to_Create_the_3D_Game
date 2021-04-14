@@ -47,7 +47,7 @@ It is needed some objects, a light and a camera to create 3D game. Additionally,
 At the next figure, please click the "3D Scene" for create the 3D spatial.
 ![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
   
-If you right click on the "Spatial" at the left side, you can see the next figure. Then, please click the "ADD Child Node".   
+If you right click on the "Spatial" at the "Scene" of the left side, you can see the next figure. Then, please click the "ADD Child Node".   
 ![Godot 106](https://github.com/To-Fujita/Images/blob/master/Godot-106.jpg "Godot 106")  
   
 Please select the "Camera", then click the "Create" at the figure below.  
@@ -151,28 +151,32 @@ Change the name at left side as follows.
 
 Select the "JoyStick" at left side, then set the value of "Position" in "Transform" at right side.
 ![Godot 135](https://github.com/To-Fujita/Images/blob/master/Godot-135.jpg "Godot 135") 
-
+  
 ### Step-4: Save the branches as scene for the Floor Block and the Brick Block
-
+Right Click on the "StaticBody" at left side and select the "Save Branch as Scene". Because, it is for easy to copy the object.  
 ![Godot 136](https://github.com/To-Fujita/Images/blob/master/Godot-136.jpg "Godot 136")  
-
+  
+Please click the "Save" at default file name.
 ![Godot 137](https://github.com/To-Fujita/Images/blob/master/Godot-137.jpg "Godot 137")  
-
+  
+Save the branch as scene again for the "StaticBody2".
 ![Godot 138](https://github.com/To-Fujita/Images/blob/master/Godot-138.jpg "Godot 138") 
-
-
+  
 ### Step-5: Attach the script to the Virtual JoyStick
-
+Drag the "JoyStick.gd" at under of right side on the "JoyStick" for attaching the script.
 ![Godot 139](https://github.com/To-Fujita/Images/blob/master/Godot-139.jpg "Godot 139") 
-
+  
 ### Step-6: Attach the script to the Spatial
-
+Right Click on the "Spatial" at right side and select the "Attach Script".
 ![Godot 140](https://github.com/To-Fujita/Images/blob/master/Godot-140.jpg "Godot 140") 
-
+  
+Click the "Create" at default setting.
 ![Godot 141](https://github.com/To-Fujita/Images/blob/master/Godot-141.jpg "Godot 141") 
+  
+
 
 ### Step-7: Attach the script to the KinematicBody
-
+Right Click on the "KinematicBody" at right side and select the "Attach Script". Then, click the "Create" at default setting.
 
 ### Step-8: Set the Camera Position and the Light Position
 
