@@ -334,6 +334,12 @@ func player_move():
 		get_node("Boy_003_Idle/AnimationPlayer").play("Boy_203a_Idle")
 
 ~~~
+
+![Godot 203](https://github.com/To-Fujita/Images/blob/master/Godot-203.jpg "Godot 203")
+
+![Godot 204](https://github.com/To-Fujita/Images/blob/master/Godot-204.jpg "Godot 204")
+
+![Godot 205](https://github.com/To-Fujita/Images/blob/master/Godot-205.jpg "Godot 205")
   
 ### Step-8: Set the Camera Position and the Light Position
 After select the "Camera" at right side, set the values to the "Translation" and the "Rotation Degrees" in the "Transform" at the right side. Then, please check to "Preview" on main window for change to camera's view.
