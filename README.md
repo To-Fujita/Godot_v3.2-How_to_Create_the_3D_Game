@@ -335,11 +335,14 @@ func player_move():
 
 ~~~
 
-'get_node("Boy_002_Walk/AnimationPlayer").play("Boy_202_Walk")' and 'get_node("Boy_003_Idle/AnimationPlayer").play("Boy_203a_Idle")'
+I will try to describe about 3D animations. There are commands 'get_node("Boy_002_Walk/AnimationPlayer").play("Boy_202_Walk")' for walking animation and 'get_node("Boy_003_Idle/AnimationPlayer").play("Boy_203a_Idle")' for idle animation.   
+Please click the mark at the "Boy_002_Walk", then click the "New Inherited".
 ![Godot 203](https://github.com/To-Fujita/Images/blob/master/Godot-203.jpg "Godot 203")
-
+  
+You can see the detail of the "Boy_002_Walk". The "Boy_202_Walk" is a main body of the animation. If you click the "AnimationPlayer", you can see the animation of it.
 ![Godot 204](https://github.com/To-Fujita/Images/blob/master/Godot-204.jpg "Godot 204")
-
+  
+Also, you can see the detail of the "Boy_003_Idle". The "Boy_203a_Idle" is a main body of the animation.
 ![Godot 205](https://github.com/To-Fujita/Images/blob/master/Godot-205.jpg "Godot 205")
   
 ### Step-8: Set the Camera Position and the Light Position
