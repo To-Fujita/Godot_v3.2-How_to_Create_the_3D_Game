@@ -132,11 +132,11 @@ Click the eye mark at the "MeshInstance" of "KinematicBody" to disappear the whi
 Right click on the "Spatial" at the left side, then click the "ADD Child Node". Select the "Node2D" and click the "Create".  
 ![Godot 130](https://github.com/To-Fujita/Images/blob/master/Godot-130.jpg "Godot 130")  
   
-Select the "Node2D" at left side, then select the "Sprite" and click the "Create" at right side.  
+Select the "Node2D" at left side, then select the "Sprite" and click the "Create".  
 ![Godot 131](https://github.com/To-Fujita/Images/blob/master/Godot-131.jpg "Godot 131")  
   
 Create the "Sprite" again as "Sprite2".  
-After select the "Sprite", click the "empty" of the "Texture" and select the "Load".  
+After select the "Sprite", click the "empty" of the "Texture" and select the "Load" at right side.  
 ![Godot 132](https://github.com/To-Fujita/Images/blob/master/Godot-132.jpg "Godot 132")  
   
 Select the file of "big_circle_N.png" and click the "Open".
