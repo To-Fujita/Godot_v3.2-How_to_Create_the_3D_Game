@@ -7,7 +7,7 @@ This document describes how to create the 3D games on step by step. I will expla
 - 3D_Game-102: Sample for 3D maze game  
   
 ## 2. Demo
-Followings are demos for this tutorials.  
+Followings are demos for this tutorials. It takes time for the demo to start.  
 - [Demo for 3D Character Move](https://to-fujita.github.io/Godot_v3.2-How_to_Create_the_3D_Game/3D_Game-101/3D_Game-101.html)   
 - [Demo for 3D Maze Game](https://to-fujita.github.io/Godot_v3.2-How_to_Create_the_3D_Game/3D_Game-102/3D_Game-102.html)   
 
