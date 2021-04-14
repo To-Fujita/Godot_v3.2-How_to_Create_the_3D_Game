@@ -335,6 +335,7 @@ func player_move():
 
 ~~~
 
+'get_node("Boy_002_Walk/AnimationPlayer").play("Boy_202_Walk")' and 'get_node("Boy_003_Idle/AnimationPlayer").play("Boy_203a_Idle")'
 ![Godot 203](https://github.com/To-Fujita/Images/blob/master/Godot-203.jpg "Godot 203")
 
 ![Godot 204](https://github.com/To-Fujita/Images/blob/master/Godot-204.jpg "Godot 204")
