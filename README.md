@@ -177,7 +177,7 @@ Click the "Create" at default setting.
 Next image is a script input screen.
 ![Godot 201](https://github.com/To-Fujita/Images/blob/master/Godot-201.jpg "Godot 201") 
   
-Please input next script for the "Spatial".
+Please input next script for the "Spatial". It is to create 10 x 10 of Floor Blocks for the ground, one of Brick Block and one of Player.
 ~~~
 extends Spatial
 
@@ -243,7 +243,7 @@ func Create_Block():
 Right Click on the "KinematicBody" at right side and select the "Attach Script". Then, click the "Create" at default setting.
 ![Godot 202](https://github.com/To-Fujita/Images/blob/master/Godot-202.jpg "Godot 202") 
   
-Please input next script for the "KinematicBody".
+Please input next script for the "KinematicBody". It is to control the palyer by the virtual joystick and/or the arrow keys in the keybord.
 ~~~
 extends KinematicBody
 
@@ -308,7 +308,7 @@ func _on_JoystickMove(vector):
 
 func player_move():
 	var direction = Vector3()
-	if Input.is_action_pressed("ui_right"):
+	if Input.is_action_pressed("ui_right"):						# Controled by arrow keys
 		direction.x += 1
 	if Input.is_action_pressed("ui_left"):
 		direction.x -= 1
@@ -336,22 +336,28 @@ func player_move():
 ~~~
   
 ### Step-8: Set the Camera Position and the Light Position
-After select the "Camera" at right side, set the values to the "Translation" and the "Rotation Degrees" in the "Transform" at right side. Then, please check to "Preview" on main window for change to camera's view.
+After select the "Camera" at right side, set the values to the "Translation" and the "Rotation Degrees" in the "Transform" at the right side. Then, please check to "Preview" on main window for change to camera's view.
 ![Godot 142](https://github.com/To-Fujita/Images/blob/master/Godot-142.jpg "Godot 142") 
   
-
+Please select the "DirectionalLight" at left side and check the "Enabled" at the "Shadow" of the "Light". Then, set the values to the "Translation" and the "Rotation Degrees" in the "Transform" at the right side.
 ![Godot 143](https://github.com/To-Fujita/Images/blob/master/Godot-143.jpg "Godot 143") 
-
+  
+If you click the play mark at upper side of right, you can see a scene that you created in the small window.
 ![Godot 144](https://github.com/To-Fujita/Images/blob/master/Godot-144.jpg "Godot 144") 
-
+  
+Next image is a scene at fixed camera mode. You can control to move the 3D character.
 ![Godot 145](https://github.com/To-Fujita/Images/blob/master/Godot-145.jpg "Godot 145") 
 
 ### Step-9: Set as a Tracking Camera
-
+Please try to drag the "Camera" to the "KinematicBody" for setting as a tracking camera.
 ![Godot 146](https://github.com/To-Fujita/Images/blob/master/Godot-146.jpg "Godot 146") 
-
+  
+Select the "Camera" at left side and set the values at the "Translation" in the "Transform" at right side. Then, try to click the play mark at upper side of right, you can see a scene at tracking camera mode.
 ![Godot 147](https://github.com/To-Fujita/Images/blob/master/Godot-147.jpg "Godot 147") 
+  
+### Step-10: Maze Type of Game
 
+  
 ## 4. Reference
 [GODOT Engine](https://godotengine.org/): The game engine that is completely free and open-source under the MIT license.  
 [GODOT v3.2 Basic Shaders](https://github.com/To-Fujita/Godot_v3.2-Basic_Shaders): The demo for Godot shaders  
