@@ -2,7 +2,7 @@
 GODOT engine is a free and open source 2D/3D Game Engine. This document is a tutorial for how to create the basic 3D game based on Godot ver. 3.2. I hope it helps as a reference for beginners.  
   
 ## 1. Description
-This document describes how to create the 3D games on step by step. I will explain how to create the 3D blocks and the 3D character, then how to move (walk) the 3D character. You can download all of programs and assets in this document from "Code" above.   
+This document describes how to create the 3D games on step by step. I will explain how to create the 3D objects and the 3D character, then how to move (walk) the 3D character. You can download all of programs and assets in this document from "Code" above.   
 - 3D_Game-101: Sample for moving the 3D character by using virtual joystick   
 - 3D_Game-102: Sample for 3D maze game  
   
@@ -16,10 +16,10 @@ Followings are demos for this tutorials.
 ## 3. Tutorials
 
 ### Step-1: Create New Project
-When you launch GODOT Engine, you will see the Project Manager as below. If you launch it at first time, no project appears in this Project Manager. Please click the "New Project".  
+When you launch GODOT Engine, you will see the Project Manager as below. If you launch it at first time, no project appears in the Project Manager. Then, please click the "New Project".  
 ![Godot 101](https://github.com/To-Fujita/Images/blob/master/Godot-101.jpg "Godot 101")  
   
-Click the "Browse" at the next figure, then select the folder to create new game.  
+Click the "Browse" at the next image, then select the folder to create new game.  
 ![Godot 102](https://github.com/To-Fujita/Images/blob/master/Godot-102.jpg "Godot 102") 
   
 Input "Project Name", then click the "Create Folder".
@@ -43,14 +43,14 @@ Please try to use your own textures and/or 3D characters instead of above files.
 ### Step-3: Create the Materials for 3D Game  
 It is needed some objects, a light and a camera to create 3D game. Additionally, "Virtual Joystick" is needed to control the 3D character.
 
-#### Step-3-1: Set the Camera and the Light  
-At the next figure, please click the "3D Scene" for create the 3D spatial.
+#### Step-3-1: Set a Camera and a Light  
+At the next image, please click the "3D Scene" for create the 3D spatial.
 ![Godot 105](https://github.com/To-Fujita/Images/blob/master/Godot-105.jpg "Godot 105")  
   
-If you right click on the "Spatial" at the "Scene" of the left side, you can see the next figure. Then, please click the "ADD Child Node".   
+If you right click on the "Spatial" at the "Scene" of the left side, you can see the next image. Then, please click the "ADD Child Node".   
 ![Godot 106](https://github.com/To-Fujita/Images/blob/master/Godot-106.jpg "Godot 106")  
   
-Please select the "Camera", then click the "Create" at the figure below.  
+Please select the "Camera", then click the "Create" at the image below.  
 ![Godot 107](https://github.com/To-Fujita/Images/blob/master/Godot-107.jpg "Godot 107")  
   
 Please create the "DirectionalLight" to same way at the "Camera" above.
@@ -69,13 +69,13 @@ Also, select the "StaticBody" at the left side and right click it, then click th
 (Note: CollisionShape is an editor facility for creating and editing collision shapes in 3D space.)  
 ![Godot 111](https://github.com/To-Fujita/Images/blob/master/Godot-111.jpg "Godot 111")  
   
-Select the "MeshInstance" at the left side and click the "enpty" of "Mesh" at right side, then click the "New CubeMesh" for creating the box object.  
+Select the "MeshInstance" at the left side and click the "empty" of "Mesh" at right side, then click the "New CubeMesh" for creating the box object.  
 ![Godot 112](https://github.com/To-Fujita/Images/blob/master/Godot-112.jpg "Godot 112")  
   
 At the defult setting, it is created a white cubed box that size is 2m x 2m x 2m. Please click the white box of "Mesh" at right side.  
 ![Godot 113](https://github.com/To-Fujita/Images/blob/master/Godot-113.jpg "Godot 113")  
   
-Click the "enpty" of "Material" at right side, then select the "New SpatialMaterial".  
+Click the "empty" of "Material" at right side, then select the "New SpatialMaterial".  
 ![Godot 114](https://github.com/To-Fujita/Images/blob/master/Godot-114.jpg "Godot 114")  
   
 Click the white sphere of "Material" at right side.  
@@ -182,18 +182,18 @@ extends Spatial
 
 
 # Declare member variables here. Examples:
-var Ground_x = 10
+var Ground_x = 10		# The number of Floor Blocks: In this case, set 10(x-direction) x 10(z-direction) blocks.
 var Ground_y = 0
 var Ground_z = 10
 var Block_size = 2
-var Player_x = 0
+var Player_x = 0		# Set the position for a player
 var Player_y = 0
 var Player_z = 0
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-#	pass # Replace with function body.
+#	pass			# Replace with function body.
 	Create_Ground()
 	Create_Player()
 	Create_Block()
@@ -204,7 +204,7 @@ func _ready():
 #	pass
 
 
-# Create Ground
+# Create Ground Floors
 func Create_Ground():
 	var Floor_org = load("res://StaticBody.tscn")
 
@@ -217,6 +217,7 @@ func Create_Ground():
 			Floor.transform.origin.z = Block_size / 2 + (j - Ground_z / 2) * Block_size
 
 
+# Create Player
 func Create_Player():
 	var Player = get_node("KinematicBody")
 	Player.set_scale(Vector3(1.0, 1.0, 1.0))
@@ -225,7 +226,7 @@ func Create_Player():
 	Player.transform.origin.z = 0	
 
 
-# Create Block
+# Create a Brick Block
 func Create_Block():
 	var Block_org = load("res://StaticBody2.tscn")
 	
@@ -236,7 +237,7 @@ func Create_Block():
 	Block.transform.origin.z = -2
 	
 ~~~
-
+  
 ### Step-7: Attach the script to the KinematicBody
 Right Click on the "KinematicBody" at right side and select the "Attach Script". Then, click the "Create" at default setting.
 ![Godot 202](https://github.com/To-Fujita/Images/blob/master/Godot-202.jpg "Godot 202") 
@@ -274,7 +275,7 @@ func _on_JoystickMove(vector):
 	if abs(vector.x) > abs(vector.y):
 		if vector.x > 0:
 			joystickVector = "right"
-#			player.move_and_slide(Vector3(speed, 0, 0), Vector3())		# 4方向移動
+#			player.move_and_slide(Vector3(speed, 0, 0), Vector3())		# Move the 4 directions
 		elif vector.x < 0:
 			joystickVector = "left"
 #			player.move_and_slide(Vector3(speed * -1, 0, 0), Vector3())
@@ -290,7 +291,7 @@ func _on_JoystickMove(vector):
 	
 	if vector.length() > 0:
 		var force = Vector3(vector.x, 0, vector.y).normalized() * speed
-		player.move_and_slide(force, Vector3())					# ８方向移動
+		player.move_and_slide(force, Vector3())					# Move more than 8 directions
 		player_idle.hide()
 		player_body.show()
 		get_node("Boy_002_Walk/AnimationPlayer").play("Boy_202_Walk")
@@ -332,10 +333,11 @@ func player_move():
 		get_node("Boy_003_Idle/AnimationPlayer").play("Boy_203a_Idle")
 
 ~~~
-
+  
 ### Step-8: Set the Camera Position and the Light Position
-
+After select the "Camera" at right side, set the values to the "Translation" and the "Rotation Degrees" in the "Transform" at right side. Then, please check to "Preview" on main window for change to camera's view.
 ![Godot 142](https://github.com/To-Fujita/Images/blob/master/Godot-142.jpg "Godot 142") 
+  
 
 ![Godot 143](https://github.com/To-Fujita/Images/blob/master/Godot-143.jpg "Godot 143") 
 
