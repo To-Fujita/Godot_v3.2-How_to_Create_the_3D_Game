@@ -290,7 +290,7 @@ func _on_JoystickMove(vector):
 	
 	if vector.length() > 0:
 		var force = Vector3(vector.x, 0, vector.y).normalized() * speed
-		player.move_and_slide(force, Vector3())							# ８方向移動
+		player.move_and_slide(force, Vector3())					# ８方向移動
 		player_idle.hide()
 		player_body.show()
 		get_node("Boy_002_Walk/AnimationPlayer").play("Boy_202_Walk")
