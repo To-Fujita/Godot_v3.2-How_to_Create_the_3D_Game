@@ -16,7 +16,7 @@ Followings are demos for this tutorials. It takes time for the demo to start.
 ## 3. Tutorials
 I will describe how to create the 3D objects and 3D character in this tutorial. Then, try to attach animations to the 3D character for walking.
 ### Step-1: Create New Project
-When you launch GODOT Engine, you will see the Project Manager as below. If you launch it at first time, no project appears in the Project Manager. Then, please click the "New Project".  
+When you have launched the GODOT Engine, you will see the Project Manager as below. If you launch it at first time, no project appears in the Project Manager. Then, please click the "New Project".  
 ![Godot 101](https://github.com/To-Fujita/Images/blob/master/Godot-101.jpg "Godot 101")  
   
 Click the "Browse" at the next image, then select the folder to create new game.  
@@ -372,17 +372,25 @@ In the maze game, the setting for the ground and the walls are almost same way t
 - Goal: 3D area that detects CollisionObject nodes overlapping, entering, or exiting.  
 
 To create the maze is almost same to the "Step-6: How to create a maze game" on [Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics).  
+You can download the source code of programs and assets in this document from "Code" above. Then, import the project to GODOT engine.
   
+#### How to Import the Project
+After download and unzip it, please launch the GODOT engine. Then, click the "Import".
 ![Godot 150](https://github.com/To-Fujita/Images/blob/master/Godot-150.jpg "Godot 150")  
-
+  
+Click the "Browse" and select the unzipped folder.
 ![Godot 151](https://github.com/To-Fujita/Images/blob/master/Godot-151.jpg "Godot 151")  
-
+  
+Please select the file "project.godot" at the folder "3D_Game-102", then click the "Open".
 ![Godot 152](https://github.com/To-Fujita/Images/blob/master/Godot-152.jpg "Godot 152")  
-
+  
+Click the "Import & Edit".
 ![Godot 153](https://github.com/To-Fujita/Images/blob/master/Godot-153.jpg "Godot 153")  
-
+  
+You can see the screen below that is 2D image.
 ![Godot 154](https://github.com/To-Fujita/Images/blob/master/Godot-154.jpg "Godot 154")  
-
+  
+If you click the "3D" upper side of screen, you can see the 3D image. You can edit all of objects and scripts.
 ![Godot 155](https://github.com/To-Fujita/Images/blob/master/Godot-155.jpg "Godot 155")  
 
   
