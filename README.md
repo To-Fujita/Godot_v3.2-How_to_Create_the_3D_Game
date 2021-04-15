@@ -14,7 +14,7 @@ Followings are demos for this tutorials. It takes time for the demo to start.
 ![3D_Game 101](https://github.com/To-Fujita/Images/blob/master/3D_Game-001.gif "Demo for 3D Game 101")  
 
 ## 3. Tutorials
-
+I will describe how to create the 3D objects and 3D character in this tutorial. Then, try to attach animations to the 3D character for walking.
 ### Step-1: Create New Project
 When you launch GODOT Engine, you will see the Project Manager as below. If you launch it at first time, no project appears in the Project Manager. Then, please click the "New Project".  
 ![Godot 101](https://github.com/To-Fujita/Images/blob/master/Godot-101.jpg "Godot 101")  
@@ -366,12 +366,25 @@ Select the "Camera" at left side and set the values at the "Translation" in the 
 ![Godot 147](https://github.com/To-Fujita/Images/blob/master/Godot-147.jpg "Godot 147") 
   
 ### Step-10: Maze Type of Game
-The setting for the ground and the walls are almost same way to the above. Also, the control for 3D player is same to the above. The additional items are as follows.  
+In the maze game, the setting for the ground and the walls are almost same way to the above. Also, the control for 3D player is same to the above. The additional items are as follows.  
 - Menu: Start screen for the game  
 - Settings: Select the player, ON/OFF for the sound effect and set the maze's size  
 - Goal: 3D area that detects CollisionObject nodes overlapping, entering, or exiting.  
 
-To create the maze is almost same to the "Step-6: How to create a maze game" on [Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics).
+To create the maze is almost same to the "Step-6: How to create a maze game" on [Babylon.js_3D_Graphics](https://github.com/To-Fujita/Babylon.js_3D_Graphics).  
+  
+![Godot 150](https://github.com/To-Fujita/Images/blob/master/Godot-150.jpg "Godot 150")  
+
+![Godot 151](https://github.com/To-Fujita/Images/blob/master/Godot-151.jpg "Godot 151")  
+
+![Godot 152](https://github.com/To-Fujita/Images/blob/master/Godot-152.jpg "Godot 152")  
+
+![Godot 153](https://github.com/To-Fujita/Images/blob/master/Godot-153.jpg "Godot 153")  
+
+![Godot 154](https://github.com/To-Fujita/Images/blob/master/Godot-154.jpg "Godot 154")  
+
+![Godot 155](https://github.com/To-Fujita/Images/blob/master/Godot-155.jpg "Godot 155")  
+
   
 ## 4. Reference
 [GODOT Engine](https://godotengine.org/): The game engine that is completely free and open-source under the MIT license.  
