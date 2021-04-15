@@ -41,7 +41,7 @@ After open the "New Project" folder by using the Explorer, create the new folder
 
 Please try to use your own textures and/or 3D characters instead of above files.
   
-### Step-3: Create the Materials for 3D Game  
+### Step-3: Create the Materials for 3D Object  
 It is needed some objects, a light and a camera to create 3D game. Additionally, "Virtual Joystick" is needed to control the 3D character.
 
 #### Step-3-1: Set a Camera and a Light  
